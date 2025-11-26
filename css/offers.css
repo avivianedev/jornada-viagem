@@ -14,7 +14,7 @@
   background-color: transparent;  
   position: static;
   padding: 0;
-  margin-bottom: 24px;
+  margin: 24px;
   
 }
 .card header p {
@@ -33,4 +33,17 @@
     display: inline-block;
     font-size: 32px;
     margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 588px;
+        height: 308px;        
+    }
+    .card header h3 {
+        font-size: 48px;        
+    }
+    .card header span{
+        font-size: 40px;        
+    }
 }
