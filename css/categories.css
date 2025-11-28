@@ -2,9 +2,15 @@
   padding: 88px 24px 0 24px;
   
 }
+
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
 .categories h2 {
   font-size: 32px;
-  color: var(-text-primary-collor);
+  
 }
 .card-container {
   display: flex;
@@ -29,6 +35,9 @@
   background-color: var(--background-secondary-collor);
   gap: 24px;
 }
+.categories-cards.transfer img{
+    margin: 10px 0 20px;
+}
 
 .categories-cards h3 {
   font-size: 28px;
@@ -38,8 +47,12 @@
 }
 
 @media screen and (min-width: 768px) {
+    
   .categories {
     padding: 88px 60px;
+  }
+  .categories .section-title{
+    width: 100%;
   }
   .card-container {
     flex-direction: row;
@@ -57,5 +70,6 @@
   .categories-cards {
     width: 281px;
     height: 220px;
+    
   }
 }
