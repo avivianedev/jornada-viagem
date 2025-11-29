@@ -1,0 +1,18 @@
+.destinations .section-title h2{
+    font-size: 32px;
+}
+
+.destinations .item header {
+  display: block;
+  background-color: transparent;  
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+  
+  
+}
+
+.destination-items .item header .img-item{
+    background: url("../img/tokio-mobile.jpg") no-repeat;
+    background-size: cover;
+} 
