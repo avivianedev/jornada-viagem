@@ -1,5 +1,6 @@
 .categories {
   padding: 88px 24px 0 24px;
+  margin-bottom: 88px;
   
 }
 
@@ -50,6 +51,7 @@
     
   .categories {
     padding: 88px 60px;
+    margin-bottom: 0;
   }
   .categories .section-title{
     width: 100%;
@@ -62,10 +64,11 @@
 
 @media screen and (min-width: 1024px) {
   .categories {
-    padding: 121px;
+    padding: 104px 121px;
   }
   .card-container{
     flex-wrap: nowrap;
+    
   }
   .categories-cards {
     width: 281px;
