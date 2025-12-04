@@ -38,10 +38,7 @@
   margin: 10px 0 20px;
 }
 
-.categories-cards h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-  line-height: 100%;
+.categories-cards h3 {  
   text-align: center;
 }
 

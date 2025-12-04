@@ -34,17 +34,8 @@
   background: url("../img/osaka-mobile.jpg") no-repeat;
   background-size: cover;
 }
-.destinations .item header h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-  line-height: 100%;
+.destinations .item header h4 {  
   margin: 24px 0;
-}
-
-.destinations .item header p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  line-height: 32px;
 }
 
 .destination-items footer .button {
