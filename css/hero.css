@@ -1,3 +1,6 @@
+.hero {
+  padding: 0;
+}
 .hero-img {
   height: 400px;
   width: 100%;
@@ -6,7 +9,8 @@
 }
 
 .hero h2 {
-  padding: 88px 24px;
+  /*padding: 88px 24px; 15:57*/ 
+  padding: 88px 24px 0 24px;
   font-size: 20px;
   line-height: 32px;
   margin: 0;
@@ -22,12 +26,13 @@
   }
 
   .hero h2 {
-    padding: 88px 68px;
+    padding: 88px 60px 0 60px;
     font-size: 32px;
     line-height: 150%;   
     text-align: center;
   }
 }
+
 
 @media screen and (min-width: 1024px) {
   .hero-img {
@@ -36,7 +41,7 @@
   }
 
   .hero h2 {
-    padding: 104px 120px;
+    padding: 104px 120px 0 120px;
     
   }
 }
