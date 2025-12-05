@@ -49,7 +49,7 @@
 @media screen and (min-width: 1920px) {  
 
   .hero h2 {
-    padding: 104px 160px;
+    padding: 104px 120px 0 120px;
     
   }
 }
