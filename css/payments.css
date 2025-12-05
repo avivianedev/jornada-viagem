@@ -1,0 +1,88 @@
+.payments .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.payments .section-title h2 {
+  font-size: 32px;
+}
+.payments .content-text {
+  margin: 24px 0;
+}
+
+.text-content .content-title {
+  width: 312px;
+  margin: 0 auto;
+  line-height: 100%;
+}
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
+.payments .image-gallery .image.bag {
+  background: url("/img/bag-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.passaport {
+  background: url("/img/passaport-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.people {
+  background: url("/img/people-mobile.png") no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .image.people.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+ .payments .section-title {
+    width: 100%;
+  }
+
+  .text-content .content-title {
+    width: 100%;
+  }
+
+  .payments .section-title h2 {
+    font-size: 32px;
+ }
+  .payments .image-gallery .image.bag {
+    background: url("/img/bag-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.passaport {
+    background: url("/img/passaport-tablet.png") no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .image.people {
+    background: url("/img/people-tablet.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .payments .content-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 23px;
+    }
+
+    .payments .content-container .text-content{
+        width: 384px;
+    }
+
+    .payments .content-container .image-gallery{
+        width: 790px;
+    }
+}

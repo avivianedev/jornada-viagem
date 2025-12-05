@@ -6,8 +6,8 @@
 }
 
 :root {
-  --primary-collor: #8F0101;
-  --secondary-collor: #B81515;
+  --primary-collor: #8f0101;
+  --secondary-collor: #b81515;
   --background-primary-collor: #ffffff;
   --background-secondary-collor: #f5f5f5;
   --background-terciary-collor: #000000;
@@ -36,29 +36,44 @@ body {
   color: var(--text-primary-collor);
 }
 
+section {
+  margin-bottom: 88px;
+  padding: 0 24px;
+}
+
 .section-title h2 {
   font-size: 28px;
-  font-weight: var(--title-weight);  
+  font-weight: var(--title-weight);
   text-align: center;
 }
 
 .section-title hr {
   width: 180px;
   height: 4px;
-  background-color: var(--secondary-collor);    
+  background-color: var(--secondary-collor);
   border: none;
   margin: 16px auto 32px;
-   line-height: 100%;
-  
+  line-height: 100%;
 }
 
-.button{
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  line-height: 100%;  
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+.button {
   width: 280px;
   height: 64px;
   background-color: var(--secondary-collor);
   color: var(--text-secondary-collor);
   font-weight: var(--title-weight);
-  font-size: 20px;  
+  font-size: 20px;
   border-radius: 16px;
   display: inline-block;
   text-decoration: none;
@@ -70,10 +85,19 @@ body {
     font-size: 32px;
     line-height: 150%;
   }
+
+  section {
+    padding: 0 60px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .button:hover{
+  .button:hover {
     background-color: var(--primary-collor);
+  }
+
+  section {
+    margin-bottom: 104px;
+    padding: 0 120px;
   }
 }
