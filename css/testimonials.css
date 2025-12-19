@@ -1,0 +1,47 @@
+.testimonials .testimonials-container article header p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+}
+.testimonials .testimonials-container article {
+  margin-bottom: 32px;
+}
+.testimonials .testimonials-container article header {
+  background-color: transparent;
+  padding: 0;
+}
+
+.testimonials .testimonials-container article footer {
+  display: flex;
+  align-items: center;
+  gap: 24px;  
+  width: 100%;
+}
+
+.testimonials-container article footer img{
+    width: 86px;
+    height: 86px;
+}
+.testimonials-container article footer .profile-content {
+    width: 100%;
+}
+.testimonials-container article footer .profile-content h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+}
+
+.testimonials-container article footer .profile-content .rating span{
+   display: inline-block;
+    font-size: 33px;    
+    color: var(--secondary-collor);
+    line-height: 32px;
+    margin-left: 4px;
+} 
+
+@media screen and (min-width: 1024px){
+  .testimonials .testimonials-container {
+    display: flex;
+    gap: 24px
+  }
+}
