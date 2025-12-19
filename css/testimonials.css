@@ -14,18 +14,19 @@
 .testimonials .testimonials-container article footer {
   display: flex;
   align-items: center;
-  gap: 30px;  
+  gap: 24px;  
   width: 100%;
 }
 
 .testimonials-container article footer img{
-    width: 30%;
+    width: 86px;
+    height: 86px;
 }
 .testimonials-container article footer .profile-content {
-    width: 70%;
+    width: 100%;
 }
 .testimonials-container article footer .profile-content h4 {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 32px;
   font-weight: var(--title-weight);
 }
@@ -34,5 +35,13 @@
    display: inline-block;
     font-size: 33px;    
     color: var(--secondary-collor);
-    
+    line-height: 32px;
+    margin-left: 4px;
 } 
+
+@media screen and (min-width: 1024px){
+  .testimonials .testimonials-container {
+    display: flex;
+    gap: 24px
+  }
+}
